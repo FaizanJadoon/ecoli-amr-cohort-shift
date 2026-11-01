@@ -1,0 +1,27 @@
+{
+  "paper_title": "Disentangling Sequencing-Evidence Loss and Lineage Shift in Risk-Aware Genomic Susceptibility Reporting for Escherichia coli",
+  "analysis_type": "Exploratory/development and pilot experiments",
+  "validation_records": 3018,
+  "heldout_prediction_records": 10983,
+  "coverage_measurements": 150,
+  "supported_findings": [
+    "Antibiotic-specific validation reporting and false-susceptible rates",
+    "Variation in false-susceptible errors across held-out cohorts",
+    "Depth-dependent loss of resistance-locus coverage",
+    "Calibration did not improve reportability under the evaluated policy"
+  ],
+  "not_yet_established": [
+    "Coverage-dependent change in AMR classifier predictions",
+    "Improvement from a combined coverage- and lineage-aware policy",
+    "False-susceptible risk control under simultaneous depth and lineage shift",
+    "Independent untouched-test performance",
+    "Clinical safety or deployment readiness"
+  ],
+  "important_caveats": [
+    "Held-out BioProject experiments were explored during development",
+    "The sequencing-depth marker experiment is a single-isolate pilot",
+    "Coverage measurements do not prove marker-detection failure",
+    "Repeated seeds and genomic regions are not independent isolates",
+    "The frozen test set must remain excluded until methods are finalized"
+  ]
+}

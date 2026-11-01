@@ -1,0 +1,79 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Editors and system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Raw and intermediate genomic data
+/data/raw/
+/data/processed/
+/data/assemblies/
+/data/references/
+/data/frozen/
+
+# Large experimental outputs
+/results/alignment/
+/results/downsampling/
+/results/fastq_downsampling/
+/results/amr/
+/results/models/
+/results/qc/
+/results/calibration/
+/results/error_analysis/
+/results/method_development/
+/results/selective_reporting/
+/results/lineage_project_audit/
+/results/baseline/
+
+# Keep only final verified evidence
+/results/final_analysis/*
+!/results/final_analysis/manuscript_evidence/
+/results/final_analysis/manuscript_evidence/*
+! /results/final_analysis/manuscript_evidence/*.csv
+
+# Binary and compressed datasets
+*.bam
+*.bai
+*.fastq
+*.fastq.gz
+*.fasta
+*.fna
+*.fna.gz
+*.sra
+*.vcf
+*.vcf.gz
+*.parquet
+*.pkl
+*.joblib
+*.tar
+*.tar.gz
+*.zip
+*.7z
+
+# Temporary files
+*.bak
+*.tmp
+*.log
+
+# Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local development instructions
+AGENTS.md
+RESEARCH_CONTEXT.md
+
+!/results/final_analysis/manuscript_evidence/*.csv
+!/results/final_analysis/manuscript_evidence/*.json
+!/results/final_analysis/manuscript_evidence/*.md

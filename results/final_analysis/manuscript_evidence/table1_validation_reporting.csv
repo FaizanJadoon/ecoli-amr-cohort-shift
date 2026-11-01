@@ -1,0 +1,7 @@
+Drug,Method,N,Resistant_N,Reported_N,Reportability,False_susceptible_N,VME_all_resistant,VME_upper95_one_sided
+ceftriaxone,Raw confidence,997,195,953,0.95587,6,0.03077,0.05982
+ceftriaxone,Calibrated confidence,997,195,947,0.94985,6,0.03077,0.05982
+ciprofloxacin,Raw confidence,1035,157,965,0.93237,5,0.03185,0.06579
+ciprofloxacin,Calibrated confidence,1035,157,960,0.92754,6,0.03822,0.07403
+gentamicin,Raw confidence,986,166,950,0.96349,7,0.04217,0.07774
+gentamicin,Calibrated confidence,986,166,937,0.9503,7,0.04217,0.07774

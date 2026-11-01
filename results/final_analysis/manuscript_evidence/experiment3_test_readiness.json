@@ -1,0 +1,38 @@
+{
+  "split_file": "data/processed/ecoli_baseline_split_v1.csv",
+  "model_artifacts": [
+    "results/models/genomic_baseline_v1/ceftriaxone_baseline.joblib",
+    "results/models/genomic_baseline_v1/ciprofloxacin_baseline.joblib",
+    "results/models/genomic_baseline_v1/gentamicin_baseline.joblib",
+    "results/models/genomic_shift_baseline_v1/PRJNA278886_ceftriaxone.joblib",
+    "results/models/genomic_shift_baseline_v1/PRJNA278886_ciprofloxacin.joblib",
+    "results/models/genomic_shift_baseline_v1/PRJNA278886_gentamicin.joblib",
+    "results/models/genomic_shift_baseline_v1/PRJNA292663_ceftriaxone.joblib",
+    "results/models/genomic_shift_baseline_v1/PRJNA292663_ciprofloxacin.joblib",
+    "results/models/genomic_shift_baseline_v1/PRJNA292663_gentamicin.joblib",
+    "results/models/genomic_shift_baseline_v1/PRJNA809394_ceftriaxone.joblib",
+    "results/models/genomic_shift_baseline_v1/PRJNA809394_ciprofloxacin.joblib",
+    "results/models/genomic_shift_baseline_v1/PRJNA809394_gentamicin.joblib",
+    "results/models/genomic_shift_baseline_v1/ST131_ceftriaxone.joblib",
+    "results/models/genomic_shift_baseline_v1/ST131_ciprofloxacin.joblib",
+    "results/models/genomic_shift_baseline_v1/ST131_gentamicin.joblib",
+    "results/models/genomic_shift_baseline_v1/ST69_ceftriaxone.joblib",
+    "results/models/genomic_shift_baseline_v1/ST69_ciprofloxacin.joblib",
+    "results/models/genomic_shift_baseline_v1/ST69_gentamicin.joblib",
+    "results/calibration/oof_sigmoid_v1/ceftriaxone_calibrated.joblib",
+    "results/calibration/oof_sigmoid_v1/ciprofloxacin_calibrated.joblib",
+    "results/calibration/oof_sigmoid_v1/gentamicin_calibrated.joblib"
+  ],
+  "feature_artifacts": [
+    "results/amr/genomic_full_v1/training_feature_matrix_v1.csv",
+    "results/amr/genomic_full_v1/training_feature_vocabulary_v1.csv",
+    "results/amr/genomic_full_v1/validation_feature_matrix_v1.csv"
+  ],
+  "inference_scripts": [
+    "src/models/lineage_baseline.py"
+  ],
+  "test_artifact_names": [],
+  "test_outcomes_read": false,
+  "model_retrained": false,
+  "thresholds_modified": false
+}

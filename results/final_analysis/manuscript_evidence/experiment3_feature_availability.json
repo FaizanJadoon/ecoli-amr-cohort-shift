@@ -1,0 +1,46 @@
+{
+  "frozen_test_isolates": 1008,
+  "test_isolates_with_source_matches": 0,
+  "test_isolates_without_source_matches": 1008,
+  "source_files_with_biosample_columns": [
+    {
+      "file": "results/amr/genomic_validation/genomic_feature_matrix_v1.csv",
+      "test_biosamples_found": 0
+    },
+    {
+      "file": "results/amr/genomic_combined_124/bioproject_independence_audit_v1.csv",
+      "test_biosamples_found": 0
+    },
+    {
+      "file": "results/amr/genomic_combined_124/genomic_feature_matrix_v1.csv",
+      "test_biosamples_found": 0
+    },
+    {
+      "file": "results/amr/genomic_combined_124/genomic_phenotype_join_v1.csv",
+      "test_biosamples_found": 0
+    },
+    {
+      "file": "results/amr/genomic_expansion_100/amr_feature_long_v1.csv",
+      "test_biosamples_found": 0
+    },
+    {
+      "file": "results/amr/genomic_pilot_24/amr_feature_long_v1.csv",
+      "test_biosamples_found": 0
+    },
+    {
+      "file": "results/amr/genomic_pilot_24/genomic_feature_matrix_v1.csv",
+      "test_biosamples_found": 0
+    },
+    {
+      "file": "results/amr/genomic_full_v1/training_feature_matrix_v1.csv",
+      "test_biosamples_found": 0
+    },
+    {
+      "file": "results/amr/genomic_full_v1/validation_feature_matrix_v1.csv",
+      "test_biosamples_found": 0
+    }
+  ],
+  "note": "A source match does not establish that a complete 561-feature test vector is available.",
+  "test_phenotypes_read": false,
+  "test_predictions_generated": false
+}

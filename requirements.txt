@@ -1,0 +1,7 @@
+# Dependencies for auxiliary MLST and lineage scripts
+pandas
+scikit-learn
+requests
+
+# reproduce_paper1.py uses Python standard library only.
+# External bioinformatics tools must be installed separately.
